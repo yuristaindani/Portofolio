@@ -23,7 +23,7 @@ function Hero() {
           >
             I&apos;m a passionate and dedicated Information Technology 
             graduate with a strong interest in Artificial Intelligence. 
-            Here, you'll get a glimpse of my journey.
+            Here, you&apos;ll get a glimpse of my journey.
           </Typography>
           <div className="flex items-center gap-2 mt-4 lg:mt-0">
             <a href="/CV-Yurista.pdf" target="_blank" rel="noopener noreferrer">
