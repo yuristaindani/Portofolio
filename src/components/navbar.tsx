@@ -174,7 +174,8 @@ export function Navbar() {
           as="a" 
           href="#home" 
           color="blue-gray" 
-          className={`text-2xl md:text-3xl font-bold ${dancingScript.className}`}
+          className="text-2xl md:text-3xl font-bold"
+          style={dancingScript.style}
         >
           Yurista Indani
         </Typography>
