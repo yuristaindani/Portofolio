@@ -59,7 +59,7 @@ export function ContactForm() {
       <div>
         <Card shadow={true} className="container mx-auto border border-gray/50">
           <CardBody className="grid grid-cols-1 lg:grid-cols-7 md:gap-10">
-            <div className="w-full col-span-3 rounded-lg h-full py-8 p-5 md:p-16 bg-gray-900">
+            <div className="w-full col-span-3 rounded-lg h-full py-8 p-5 md:p-16 bg-gray-900 order-2 lg:order-1 mt-8 lg:mt-0">
               <Typography variant="h4" color="white" className="mb-2">
                 Contact Information
               </Typography>
@@ -88,7 +88,7 @@ export function ContactForm() {
               </div>
             </div>
             
-            <div className="w-full mt-8 md:mt-0 md:px-10 col-span-4 h-full p-5">
+            <div className="w-full md:px-10 col-span-4 h-full p-5 order-1 lg:order-2">
               
               {/* Form sekarang menggunakan fungsi onSubmit, bukan action HTML */}
               <form onSubmit={handleSubmit}>
